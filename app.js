@@ -197,7 +197,7 @@ const numArrays = [
 	[7, 81, 90]
 ];
 
-const numList = numArrays.slice(-1);
+const numList = numArrays.slice(-1)[0];
 console.log('Exercise 13 result:', numList);
 
 /*
